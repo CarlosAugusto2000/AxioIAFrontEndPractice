@@ -156,3 +156,31 @@ section-title-blue {
 .card:hover h3 {
     color: #0077b6; 
 }
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 50px 15px; 
+    }
+    #hero h1 {
+        font-size: 2.2rem; 
+        letter-spacing: 2px;
+    }
+
+    #hero p {
+        font-size: 1.1rem; 
+    }
+    .section-title-blue {
+        font-size: 1.4rem; 
+        line-height: 1.3;
+        margin-bottom: 25px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+
+    .card {
+        padding: 25px 20px; 
+    }
+}
